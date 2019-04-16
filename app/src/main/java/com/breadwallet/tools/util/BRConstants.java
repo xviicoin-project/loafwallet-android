@@ -144,12 +144,12 @@ public class BRConstants {
     public static final String wipeWallet = "wipe-wallet";
     public static final String loopBug = "android-loop-bug";
 
-    public static final String TWITTER_LINK = "https://twitter.com/loafwallet";
+    public static final String TWITTER_LINK = "https://twitter.com/xvii17coin";
     public static final String REDDIT_LINK = "https://www.reddit.com/r/litecoin";
-    public static final String WEB_LINK = "https://loafwallet.org";
-    public static final String TOS_LINK = "https://loafwallet.org/tos";
+    public static final String WEB_LINK = "http://xviicoin.info";
+    public static final String TOS_LINK = "http://xviicoin.info/tos";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "https://testnet.litecore.io/tx/" :"https://insight.litecore.io/tx/";
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "https://testnet.litecore.io/tx/" :"http://explorer.xviicoin.info/tx/";
 
     private BRConstants() {
     }
