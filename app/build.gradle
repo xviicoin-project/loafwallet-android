@@ -2,10 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion = 26
-    buildToolsVersion = '26.0.3'
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-        applicationId = 'com.loafwallet'
+        applicationId = 'com.xviiwallet'
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 175
@@ -46,9 +45,9 @@ android {
     flavorDimensions "mode"
     productFlavors {
         loaf {
-            applicationId "com.loafwallet"
+            applicationId "com.xviiwallet"
             dimension "mode"
-            resValue "string", "app_name", "LoafWallet"
+            resValue "string", "app_name", "XVIIWallet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
 
             externalNativeBuild {
@@ -63,9 +62,9 @@ android {
         }
 
         loafTestnet {
-            applicationId "com.loafwallet.testnet"
+            applicationId "com.xviiwallet.testnet"
             dimension "mode"
-            resValue "string", "app_name", "LoafWallet-testnet"
+            resValue "string", "app_name", "XVIIWallet-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
 
             externalNativeBuild {
@@ -162,5 +161,5 @@ dependencies {
     implementation 'com.android.support.test:rules:1.0.1'
     implementation 'junit:junit:4.12'
     implementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    androidTestCompile 'tools.fastlane:screengrab:1.1.0'
+    androidTestImplementation 'tools.fastlane:screengrab:1.1.0'
 }

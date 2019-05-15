@@ -2,7 +2,7 @@ LoafWallet for Android
 ----------------------------------
 
 ![download](/images/icon-google-play.png)
-(https://play.google.com/store/apps/details?id=com.loafwallet)
+(https://play.google.com/store/apps/details?id=com.xviiwallet)
 
 ### The easy and secure Litecoin wallet
 
